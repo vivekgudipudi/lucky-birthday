@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200;300&family=Poppins&display=swap');
+
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    
+}
+input,label{
+    display: block;
+}
+
+input,#output-box{
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: 2px solid black;
+    text-align: center;
+    min-height: 2rem;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+}
+
+#check-dob{
+    display: block;
+    /* margin-top: 1rem; */
+    margin: auto;
+    background: transparent;
+    border-radius: 0.3rem;
+    padding: 5px;
+    cursor: pointer;
+    background-color:#E5E7EB ;
+}
+
